@@ -1,0 +1,43 @@
+.book-card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-details {
+  padding: 10px;
+}
+
+.book-details h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.book-details .author {
+  font-style: italic;
+  color: #555;
+}
+
+.book-details .description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
